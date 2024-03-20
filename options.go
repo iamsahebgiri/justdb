@@ -5,4 +5,6 @@ type Options struct {
 	DirPath string
 	// AutoMergeCronExpr is the cron expression for auto merge
 	AutoMergeCronExpr string
+	// ActiveDataFileMaxSize is the maximum size of the active data file
+	ActiveDataFileMaxSize int64
 }
